@@ -5,16 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Localiza One | home</title>
+    <title>Localiza.One | home</title>
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">    
     <link rel="shortcut icon" href="img/">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="font-awesome2/css/all.css" rel="stylesheet">
+   
     <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/plugins/materialize/material-icons.css">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+    
 </head>
 
 <body class="fixed-navigation  ">
@@ -34,7 +40,7 @@
                 <!-- navegação de sistema/ fale conosco -->
                 <li>
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                        <i class="fa fa-rocket fa-lg"></i> 
+                        <i class="material-icons">apps</i> 
 
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
@@ -86,7 +92,7 @@
                 </li><!-- Fim menu navegavel -->
                 <li>
                     <a href="login_.html" class="m-r-lg">
-                        <i class="fa fa-sign-out fa-lg"></i> Sair
+                        <i class="material-icons ">exit_to_app</i> Sair
                     </a>
                 </li>
             </ul>
@@ -105,27 +111,27 @@
                     </li>
                     <li class="">
                         <a data-toggle="tab">
-                            <i class="fa fa-phone"></i> 
+                            <i class="fa fa-phone-square"></i>
                             <span class="sidebar-title">Mais telefones</span>
                         </a>
                     </li>
                     
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-id-card-o"></i> 
+                            <i class="fa fa-id-card fa-fw"></i>
                             <span class="sidebar-title">Situação cadastral</span>
                         </a>
                     </li>
                     
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-heartbeat"></i>
+                            <i class="fa fa-cross"></i>
                             <span class="sidebar-title">Óbito</span>
                         </a>
                     </li>
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-graduation-cap"></i> 
+                            <i class="fa fa-project-diagram fa-fw"></i> 
                             <span class="sidebar-title">Perfil sociodemográfico</span>
                         </a>
                     </li>
@@ -137,66 +143,39 @@
                     </li>
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-retweet "></i>
+                            <i class="fa fa-link fa-fw"></i>
                             <span class="sidebar-title ">Pessoas/Empresas ligadas</span>
                         </a>
                     </li>
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-handshake-o"></i>
+                            <i class="fa fa-handshake"></i>
                             <span class="sidebar-title">Participação empresarial</span>
                         </a>
                     </li>
+                   
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-blind"></i>
-                            <span class="sidebar-title">Consulta aposentado</span>
-                        </a>
-                    <li class="">
-                        <a data-toggle="tab" href="#">
-                            <i class="fa fa-exclamation-circle"></i> 
+                            <i class="fa fa-file-invoice-dollar fa-fw"></i> 
                             <span class="sidebar-title">Inadimplência</span>
                         </a>
                     </li>
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-chain"></i> 
+                            <i class="fa fa-link"></i> 
                             <span class="sidebar-title">Quem Consultou</span>
                         </a>
                     </li>
+                   
+                   
                     <li class="">
                         <a data-toggle="tab" href="#">
-                            <i class="fa fa-legal"></i> 
-                            <span class="sidebar-title">Protesto</span>
-                        </a>
-                    </li>
-
-                    <li class="">
-                        <a data-toggle="tab" href="#">
-                            <i class="fa fa-calendar-check-o"></i> 
-                            <span class="sidebar-title">subscrição</span>
-                        </a>
-                    </li>
-
-                    <li class="">
-                        <a data-toggle="tab" href="#">
-                            <i class="fa fa-facebook "></i> 
+                            <i class="fa fa-facebook-square"></i> 
                             <span class="sidebar-title">Facebook</span>
                         </a>
                     </li>
                     
-                    <li class="">
-                        <a data-toggle="tab" href="#">
-                            <i class="fa fa-newspaper-o"></i>
-                            <span class="sidebar-title">Seguro Desemprego</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a data-toggle="tab" href="#">
-                            <i class="fa fa-drivers-license-o"></i> 
-                            <span class="sidebar-title">Plano de saúde</span>
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
         </nav>
@@ -225,12 +204,12 @@
                                         <form action="#buscar" class="m-t" role="">
                                             <div class="row">
                                                 <div class="col-sm-12 form-group">
-                                                    <input type="text" placeholder="CPF / CNPJ" class="form-control" maxlength="15" data-mask="9999999999?9999" name="CPF_CNPJ" id="CPF_CNPJ">
-                                                </div>
-                                                <div class="col-sm-12 text-center">
-                                                    <button type="submit" class="btn btn-primary">
-                                                        <i class="fa fa-search fa-lg"></i> Buscar
-                                                    </button>
+                                                    <div class="input-group">
+                                                        <input type="text" placeholder="CPF / CNPJ" class="form-control"data-mask="9999999999?9999" name="CPF_CNPJ" id="CPF_CNPJ"> 
+                                                        <span class="input-group-btn"> 
+                                                            <button type="submit" class="btn btn-primary"><i class="fa fa-search fa-lg"></i> Buscar</button>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </form>
@@ -412,7 +391,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="tabs-container">
-                                <ul class="nav nav-tabs">
+                                <ul class="nav nav-tabs noborders">
                                     <li class="active">
                                         <a data-toggle="tab" href="#1Telefone"> Telefone</a>
                                     </li>
@@ -426,9 +405,9 @@
                                         <a data-toggle="tab" href="#inserirFone">Informar novo telefone</a>
                                     </li>
                                 </ul>
-                                <div class="tab-content">
+                                <div class="tab-content ">
                                     <div id="1Telefone" class="tab-pane active">
-                                        <div class="panel-body">
+                                        <div class="panel-body nobackground">
                                             <div class="table-responsive">
                                                 <table class="table dataTables-example">
                                                     <thead>
@@ -480,9 +459,9 @@
 
                                     <!--Telefones Historicos-->
                                     <div id="telHistorico" class="tab-pane">
-                                        <div class="panel-body">
+                                        <div class="panel-body nobackground">
                                             <div class="table-responsive">
-                                                <table class="table dataTables-example">
+                                                <table class="table table-hover">
                                                     <thead>
                                                         <tr>
                                                             <th class="text-left">Telefones</th>
@@ -517,7 +496,7 @@
 
                                     <!--Telefone relacionados-->
                                     <div id="telRelacionado" class="tab-pane">
-                                        <div class="panel-body">
+                                        <div class="panel-body nobackground">
                                             <div class="table-responsive">
                                                 <table class="table dataTables-example">
                                                     <thead>
@@ -2068,7 +2047,7 @@
                     (11) 3421-1234
                 </div>
                 <div>
-                    <strong>Localiza One</strong> Copyright &copy; 2019
+                    <strong>Infinit.TI</strong> Copyright &copy; 2019
                 </div>
             </div>
         </div>   

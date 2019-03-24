@@ -1,0 +1,27 @@
+
+.tabs-container .nav-tabs.noborders > li.active > a,
+.tabs-container .nav-tabs.noborders > li.active > a:hover,
+.tabs-container .nav-tabs.noborders > li.active > a:focus {
+  border: 1px solid #023069;
+  background-color: #02408a;
+  color: #fff; 
+}
+
+.tabs-container .nav-tabs {
+  border-bottom: none;
+}
+
+.panel-body.nobackground {
+  background:transparent;
+  border:none;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+}
+
+.nav-tabs>li>a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px;
+}
