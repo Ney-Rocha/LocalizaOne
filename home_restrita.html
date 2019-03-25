@@ -701,10 +701,504 @@
             </div>   
          </div><!--Localização-->
 
+         <!--Outros Telefones-->             
+         <div class="wrapper wrapper-content2" id="maisTelefones">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div class="tab-content">
+                        <div id="maisTelefone" class="tab-pane active">
+                           <div class="panel-body nobackground">
+                              <div class="table-responsive">
+                                 <table class="table table-hover">
+                                    <thead>
+                                       <tr >
+                                          <th class="text-center title"  colspan="1"><i class="fa fa-headset"></i> Outros telefones</th>
+                                       </tr>
+                                       <tr> 
+                                          <th class="text-left">Telefones</th> 
+                                       </tr>                
+                                    </thead>
+                                    <tbody>
+                                       <tr> 
+                                          <td class="font-bold text-left">(21) 4181-1213</td>
+                                       </tr>
+                                       <tr>
+                                          <td class="font-bold text-left">(21) 4181-1213</td>
+                                       </tr>
+                                       <tr> 
+                                          <td class="font-bold text-left">(21) 4181-1213</td>
+                                       </tr>
+                                       <tr> 
+                                          <td class="font-bold text-left">(21) 4181-1213</td>
+                                       </tr>
+                                       <tr> 
+                                          <td class="font-bold text-left">(21) 4181-1213</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
 
+         <!--Situação cadastral --> 
+         <div class="wrapper wrapper-content2" id="situacaoCad">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="ibox-title">
+                     <h5><i class="fa fa-id-card"></i> Situação cadastral</h5>
+                  </div> <!-- ibox-title -->
+                  <div class="ibox-content" id="edit">
+                     <form method="get" class="form-group">
+                        <div class="row m-t">
+                           <div class="form-group col-lg-6">
+                              <label class=" control-label label-weight">Situação</label>
+                              <input name="situacaoCadastral" type="text" id="situacaoCadastral"  class="form-control font-semibold">
+                           </div>
 
-      </div>   <!-- wrapper -->  
-         
+                           <div class="form-group col-lg-6">
+                              <label class="control-label label-weight">Código controle</label>
+                              <input name="codigoVerificador" type="text" id="codigoVerificar" class="form-control">
+                           </div>
+                        
+
+                           <div class="form-group col-lg-6">
+                              <label class="control-label label-weight">Data hora consulta</label>
+                              <input name="dataHora" type="text" id="dataHora"  class="form-control">
+                           </div>
+
+                           <div class="form-group col-sm-6">
+                              <label class="control-label label-weight">Digito verificador</label>
+                              <input name="digitoVerificador" type="text" id="digitoVerificador" class="form-control">
+                           </div>
+                           <div class="col-sm-12 text-right"> 
+                              <button class="btn btn-primary" type="submit">Atualizar Online</button>
+                           </div>                              
+                        </div><!--  row -->
+                     </form> <!-- form -->
+                  </div><!-- ibox content -->
+               </div> <!-- col -->
+            </div> <!-- row -->
+         </div> <!-- wrapper -->
+
+         <!--Óbito -->   
+         <div class="wrapper wrapper-content2" id="suspObito">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <ul class="nav nav-tabs noborders">
+                        <li class="active"><a data-toggle="tab" href="#obito"> <i class="fa fa-cross"></i> Óbito</a></li>
+                        <li class=""><a data-toggle="tab" href="#cartorio"> Cartório</a></li>
+                     </ul>
+                     <div class="tab-content">
+                        <div id="obito" class="tab-pane active">
+                           <div class="panel-body nobackground">
+                              <div class="table-responsive">
+                                 <table class="table table-hover">
+                                    <thead>
+                                       <tr>
+                                          <th class="text-left">Data do óbito</th>
+                                          <th class="text-left">Nº do livro</th>
+                                          <th class="text-left">Nº da folha</th>
+                                          <th class="text-left">Nº do termo</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr class="">
+                                          <td class="text-left font-bold">21/01/1989</td>  
+                                          <td  class="text-left font-bold">1223212</td>
+                                          <td class="text-left font-bold">213412</td>
+                                          <td class="text-left font-bold">456789012-0</td>
+                                       </tr>                                       
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     
+                        <div id="cartorio" class="tab-pane">
+                           <div class="panel-body nobackground">
+                              <div class="table-responsive">
+                                 <table class="table table-hover">
+                                    <thead>
+                                       <tr>
+                                          <th class="text-left">Nome cartório</th>
+                                          <th class="text-left">Endereço</th>
+                                          <th class="text-left">Cidade</th>
+                                          <th class="text-left">CEP</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr class="">
+                                          <td class="text-left font-bold">11º CARTORIO DE NOTAS E OFICIOS DE SP</td>  
+                                          <td  class="text-left font-bold">AV SÃO JOAO DO MERITI DAS NEVES, 12351</td>
+                                          <td class="text-left font-bold">SÃO PAULO</td>
+                                          <td class="text-left font-bold">SP</td>
+                                       </tr>                                       
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!--Fim do obito-->
+
+         <!--Perfil sociodemografico-->        
+         <div class="wrapper wrapper-content2" id="perfilsocioDem">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div class="tab-content">
+                           <div id="perfilSociodemografico" class="tab-pane active">
+                              <div class="panel-body nobackground">
+                                 <div class="table-responsive">
+                                    <table class="table table-hover">
+                                       <thead>
+                                          <tr>
+                                             <th class="text-center title"  colspan="2"><i class="fa fa-dna"></i> Perfil sóciodemográfico</th>
+                                          </tr>
+                                          <tr>
+                                             <th class="text-left">Descrição</th>
+                                             <th class="text-left">Detalhes</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td class="font-bold">Score de risco</td>
+                                             <td class="text-left">BAIXO</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold ">Nível de movimentação bancária</td>
+                                             <td class="text-left">ALTA</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold">Classe social</td>
+                                             <td class="text-left">CLASSE MÉDIA</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold">Renda Presumida</td>
+                                             <td class="text-left">SIM</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold">Estado civíl</td>
+                                             <td class="text-left">CASADO</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold">Escolaridade</td>
+                                             <td class="text-left">SUPERIOR COMPLETO</td>
+                                          </tr>
+                                          <tr>
+                                             <td class="font-bold">Profissão</td>
+                                             <td class="text-left">MÉDICO</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- FIM Perfil sociodemografico-->
+
+         <!--Perfil de consumo -->
+         <div class="wrapper wrapper-content2" id="perfilConsum">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div class="tab-content">
+                        <div id="perfilConsumo" class="tab-pane active">
+                           <div class="panel-body nobackground">
+                              <div class="table-responsive">
+                                 <table class="table table-hover">
+                                    <thead>
+                                       <tr>
+                                          <th class="text-center title"  colspan="2"><i class="fa fa-shopping-cart"></i> Perfil de consumo</th>
+                                       </tr>
+                                       <tr>
+                                          <th class="text-left">Descrição</th>
+                                          <th class="text-left">Detalhe</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                             <td class="font-bold">Posssui veiculo</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui internet</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui TV a cabo</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui cartão de crédito</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui celular pós-pago</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui crédito consignado</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Possui crédito imobiliário</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Cliente ecommerce</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Cliente seguro saúde</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Cliente supermercado</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Perfil luxo</td>
+                                             <td class="text-left">NÃO</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Realiza compra na internet</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Propensão cartão de crédito supermercado</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Propensão cartão de crédito vestúario</td>
+                                             <td class="text-left">SIM</td>
+                                       </tr>
+                                       <tr>
+                                             <td class="font-bold">Turismo</td>
+                                             <td class="text-left">NÃO</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- fim do perfil de consumo --> 
+
+         <!--Pessoas empresas ligadas-->
+         <div class="wrapper wrapper-content2" id="pessaoEmpresasLigadas">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div id="pessoasLigadas" class="tab-pane">
+                        <div class="panel-body nobackground">
+                           <div class="table-responsive">
+                              <table class="table table-hover">
+                                 <thead>
+                                    <tr>
+                                       <th class="text-center title"  colspan="4"><i class="fa fa-user-friends"></i> Pessoas/ Empresas ligadas</th>
+                                    </tr>
+                                    <tr>
+                                       <th class="text-left">CPF / CNPJ</th>
+                                       <th class="text-left">Nome</th>
+                                       <th class="text-left">Idade</th>
+                                       <th class="text-left">Parentesco</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >808.904.828-53</a></td>
+                                       <td class="text-left">Jesse Ribeiro da Silva</td>
+                                       <td class=" text-left">60 anos</td>  
+                                       <td class="text-left">Parente</td>           
+                                    </tr>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >308.904.828-53</a></td>
+                                       <td class="text-left">Joao batista da Silva</td>
+                                       <td class="text-left">57 anos</td>  
+                                       <td class="text-left">Pai</td>
+                                    </tr>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >808.904.828-53</a></td>
+                                       <td class="text-left">Maria Aparecia do Santos</td>
+                                       <td class="text-left">32 anos</td>  
+                                       <td class="text-left">Irmão</td>
+                                    </tr>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >808.904.828-53</a></td>
+                                       <td class="text-left">Jesse Ribeiro da Silva</td>
+                                       <td class="text-left">60 anos</td>  
+                                       <td class="text-left">Parente</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!--Fim de pessoas empresas ligadas-->
+
+         <!--Participação empresarial-->
+         <div class="wrapper wrapper-content2" id="partEmpresarial">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div id="pessoasLigadas" class="tab-pane">
+                        <div class="panel-body nobackground">
+                           <div class="table-responsive">
+                              <table class="table dataTables-example table-striped">
+                                 <thead>
+                                    <tr>
+                                       <th class="text-center title"  colspan="4"><i class="fa fa-file-signature"></i> Participação empresarial</th>
+                                    </tr>
+                                    <tr>
+                                       <th class="text-left">CNPJ</th>
+                                       <th class="text-left">Razão social</th>
+                                       <th class="text-left">% de Participação</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >14.539.125/0001-07</a></td>
+                                       <td class="text-left">DIRETRIX ON INTELIGENCIA DA INFORMACAO LTDA ME</td> 
+                                       <td class="text-left">61.00</td>           
+                                    </tr>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >07.583.629/0001-50</a></td>
+                                       <td class="text-left">UNITFOUR TECNOLOGIA DA INFORMACAO LTDA</td>
+                                       <td class="text-left"> 33.30</td>
+                                    </tr>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >10.818.056/0001-01</a></td>
+                                       <td class="text-left">UNITFOUR MARKETING LTDA</td>
+                                       <td class="text-left">20.00</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!--fim Participação empresarial-->
+
+         <!--Informação HIstórico profissional-->
+         <div class="wrapper wrapper-content2" id="historicoProfissional">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div id="pessoasLigadas" class="tab-pane">
+                        <div class="panel-body nobackground">
+                           <div class="table-responsive">
+                              <table class="table dataTables-example table-striped">
+                                 <thead>
+                                    <tr >
+                                       <th class="text-center title"  colspan="5"><i class="fa fa-user-tie"></i> Histórico profissional</th>
+                                    </tr>
+                                    <tr>
+                                       <th class="text-left">CNPJ</th>
+                                       <th class="text-left">Razão social</th>
+                                       <th class="text-left">Renda</th>
+                                       <th class="text-left">CBO</th>
+                                       <th class="text-left">Descrição CBO</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >147.392.670-07</a></td>
+                                       <td class="text-left">Joao da Silva Eustaquio ME</td> 
+                                       <td class="text-left">R$ <span>3000.00</span> </td> 
+                                       <td class="text-left">1234</td>  
+                                       <td class="text-left">Operador de caixa</td>           
+                                    </tr>
+                                    <tr class="text-left">
+                                          <td class="font-bold text-left"><a >247.392.670-07</a></td>
+                                          <td class="text-left">Supermercado eustaquio ltda-ME</td> 
+                                          <td class="text-left">R$ <span>3000.00</span> </td> 
+                                          <td class="text-left">1234</td>  
+                                          <td class="text-left">Operador de caixa</td>           
+                                       </tr>
+                                       <tr class="text-left">
+                                          <td class="font-bold text-left"><a >347.392.670-07</a></td>
+                                          <td class="text-left">Doceria Estauquio ME</td> 
+                                          <td class="text-left">R$ <span>3000.00</span> </td> 
+                                          <td class="text-left">1234</td>  
+                                          <td class="text-left">Operador de caixa</td>           
+                                       </tr>
+                                       <tr class="text-left">
+                                          <td class="font-bold text-left"><a >447.392.670-07</a></td>
+                                          <td class="text-left">Padaria Eustaquio ltda</td> 
+                                          <td class="text-left">R$ <span>3000.00</span> </td> 
+                                          <td class="text-left">1234</td>  
+                                          <td class="text-left">Operador de caixa</td>           
+                                       </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!--fim HIstórico profissional-->
+
+         <!--Informação aposentado-->
+         <div class="wrapper wrapper-content2" id="aposentado">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="tabs-container">
+                     <div id="pessoasLigadas" class="tab-pane">
+                        <div class="panel-body nobackground">
+                           <div class="table-responsive">
+                              <table class="table dataTables-example table-striped">
+                                 <thead>
+                                    <tr>
+                                       <th class="text-center title"  colspan="4"><i class="fa fa-medal"></i> Aposentado</th>
+                                    </tr>
+                                    <tr>
+                                       <th class="text-left">CPF</th>
+                                       <th class="text-left">Nome</th>
+                                       <th class="text-left">Status</th>
+                                       <th class="text-left">Data Consulta</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="text-left">
+                                       <td class="font-bold text-left"><a >147.392.670-07</a></td>
+                                       <td class="text-left">Joao da Silva Eustaquio</td> 
+                                       <td class="text-left">Sim</td> 
+                                       <td class="text-left">20/03/2019</td>           
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!--fim aposentado-->
+
+      </div><!-- wrapper Geral -->  
       <div class="container m-t-lg">   
          <div class="footer fixed_full">
             <div class="pull-right">

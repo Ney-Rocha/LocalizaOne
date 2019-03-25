@@ -3887,8 +3887,8 @@ code {
   border-width: 3px 0 0;
   color: #fff;
   margin-bottom: 0;
-  padding: 14px 15px 7px;
-  min-height: 48px;
+  padding: 10px;
+  min-height: 35px;
 }
 .ibox-content {
   background-color: #ffffff;
@@ -5118,6 +5118,14 @@ span.strong{
   margin: 0px;
   padding: 5px 10px!important;
   background-color: #4267b2;
+  color: #fff!important;
+}
+.table > thead > tr > th.title {
+  border-bottom: 1px solid #DDDDDD;
+  vertical-align: bottom;
+  margin: 0px;
+  padding: 5px 10px!important;
+  background-color: rgb(2, 64, 138);
   color: #fff!important;
 }
 .table > thead > tr > th,
