@@ -3537,11 +3537,13 @@ video {
   padding: 10px 30px 15px 30px;
 }
 .inmodal .modal-body {
-  background: #f8fafb;
+  background: #e9ebee;
 }
 .inmodal .modal-header {
-  padding: 30px 15px;
+  padding: 15px;
+  text-align: center;padding: 15px;
   text-align: center;
+  color: #5d5d5d;
 }
 .animated.modal.fade .modal-dialog {
   -webkit-transform: none;
@@ -3550,7 +3552,7 @@ video {
   transform: none;
 }
 .inmodal .modal-title {
-  font-size: 26px;
+  font-size: 20px;
 }
 .inmodal .modal-icon {
   font-size: 84px;
@@ -3558,6 +3560,7 @@ video {
 }
 .modal-footer {
   margin-top: 0;
+  padding: 20px 15px;
 }
 /* WRAPPERS */
 #wrapper {
@@ -3728,7 +3731,7 @@ body.body-small .footer.fixed {
 .nav-tabs > li > a {
   color: #A7B1C2;
   font-weight: 600;
-  padding: 10px 20px 10px 25px;
+  padding: 5px 15px;
 }
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a:focus {
@@ -3869,12 +3872,12 @@ code {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background-color: #ffffff;
+  background-color: #4267b2;
   border-color: #e7eaec;
   border-image: none;
   border-style: solid solid none;
   border-width: 3px 0 0;
-  color: inherit;
+  color: #fff;
   margin-bottom: 0;
   padding: 14px 15px 7px;
   min-height: 48px;
@@ -3882,11 +3885,13 @@ code {
 .ibox-content {
   background-color: #ffffff;
   color: inherit;
-  padding: 15px 20px 20px 20px;
+  padding: 10px 20px;
   border-color: #e7eaec;
   border-image: none;
   border-style: solid solid none;
   border-width: 1px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .ibox-content2 {
   background-color: #ffffff;
@@ -5093,11 +5098,19 @@ span.strong{
   margin-left: 10px;
   text-align: left;
 }
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
 .table > thead > tr > th {
   border-bottom: 1px solid #DDDDDD;
   vertical-align: bottom;
   margin: 0px;
-  padding: 15px 10px;
+  padding: 5px 10px!important;
+  background-color: #4267b2;
+  color: #fff!important;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -5106,11 +5119,12 @@ span.strong{
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   border-top: 1px solid #e7eaec;
-  padding: 3px;
+  padding: 3px 10px;
   color: #555;
-  
-  
+ }
 
+ .table > tbody {
+ background-color: #fff;
  }
 
  .table > tbody > tr > td.align-dir {

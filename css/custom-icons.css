@@ -1,0 +1,37 @@
+.table > tbody > tr > td a.vote{
+  color: #02408a;
+  text-decoration: none;
+  font-size: 14px;
+}
+.table > tbody > tr > td.icon i{
+  font-size: 16px;
+  color: #f77505;
+}
+
+.tabs-container li.active .label{
+  background-color: #f77505;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 400;
+  padding: 3px 8px;
+  text-shadow: none;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 99;
+}
+
+.tabs-container li .label{
+  background-color: #f8c69a;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 400;
+  padding: 3px 8px;
+  text-shadow: none;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 0;
+}
