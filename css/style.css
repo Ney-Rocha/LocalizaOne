@@ -62,7 +62,7 @@ h5 {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background: #fff;
+  background: inherit;
 }
 .nav.navbar-top-links > li > a:hover,
 .nav.navbar-top-links > li > a:focus {
@@ -133,8 +133,9 @@ h5 {
 .navbar-top-links .dropdown-messages,
 .navbar-top-links .dropdown-tasks,
 .navbar-top-links .dropdown-alerts {
-  width: 310px;
+  width: 240px;
   min-width: 0;
+  margin-top: -10px !important;
 }
 .navbar-top-links .dropdown-messages {
   margin-left: 5px;
@@ -3782,6 +3783,13 @@ body.body-small .footer.fixed {
 .link-block {
   font-size: 12px;
   padding: 10px;
+  color:#555;
+}
+
+.link-block:hover {
+ background-color: #e9ebee;
+ border-radius:5px;
+  color:#555;
 }
 .nav.navbar-top-links .link-block a {
   font-size: 12px;

@@ -9,7 +9,7 @@
 }
 
 .tabs-container li.active .label{
-  background-color: #f77505;
+  background-color: #f70505;
   color: #fff;
   font-family: 'Open Sans';
   font-size: 10px;
@@ -23,7 +23,7 @@
 }
 
 .tabs-container li .label{
-  background-color: #f8c69a;
+  background-color: #f89a9a;
   color: #fff;
   font-family: 'Open Sans';
   font-size: 10px;
@@ -32,6 +32,6 @@
   text-shadow: none;
   position: absolute;
   top: -8px;
-  right: -8px;
+  right: 0px;
   z-index: 0;
 }
