@@ -2,9 +2,9 @@
 .tabs-container .nav-tabs.noborders > li.active > a,
 .tabs-container .nav-tabs.noborders > li.active > a:hover,
 .tabs-container .nav-tabs.noborders > li.active > a:focus {
-  border: 1px solid #023069;
-  background-color: #02408a;
-  color: #fff; 
+  border: 1px solid #053c57;
+  background-color: #053c57;
+  color: #acec29;
 }
 
 .tabs-container .nav-tabs {
